@@ -7,7 +7,7 @@ The contract is in the ./contract/TwitterFactory.sol, the functions including:
 creat, getTwitter(s), update, delete
 
 Unit tests:
-The unit tests is in the ./test/TwitterFactory.test.js
+The unit tests are in the ./test/TwitterFactory.test.js
 When testing, I tried directly truffle test, but I got some network issus. Then I turned to use “truffle develop” and then “test”.
 
 We’ve created 4 tests including: creat, getTwitter, update, delete. And all of them passed.
