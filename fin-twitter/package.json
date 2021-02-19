@@ -1,0 +1,27 @@
+{
+  "name": "fin-twitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "server": "ganache-cli",
+    "build": "truffle compile",
+    "coverage": "truffle run coverage",
+    "migrate": "truffle migrate --network ropsten"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "prettier": "^2.2.1",
+    "truffle-hdwallet-provider": "^1.0.17"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.10",
+    "solidity-coverage": "^0.7.13"
+  }
+}
