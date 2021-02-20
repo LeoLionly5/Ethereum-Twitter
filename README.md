@@ -4,15 +4,15 @@ Shengyi Zhou, Mengwei Yang, Yan Zhang, Zhimin Wang
 
 
 
-steps & command:
+Steps & command:
 
-npm install -g truffle@v5.1.65
+#npm install -g truffle@v5.1.65
 
-npm install
+#npm install
 
-truffle test (Or "truffle develop" then "test")
+#truffle test (Or "truffle develop" then "test")
 
-truffle migrate --reset --network ropsten
+#truffle migrate --reset --network ropsten
 
 
 
