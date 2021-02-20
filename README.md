@@ -2,7 +2,9 @@ Ethereum Twitter
 
 Shengyi Zhou, Mengwei Yang, Yan Zhang, Zhimin Wang
 
-steps:
+
+
+steps & command:
 
 npm install -g truffle@v5.1.65
 
@@ -11,6 +13,9 @@ npm install
 truffle test (Or "truffle develop" then "test")
 
 truffle migrate --reset --network ropsten
+
+
+
 
 Contracts:
 The contract is in the ./contract/TwitterFactory.sol, the functions including: 
