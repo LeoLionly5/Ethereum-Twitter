@@ -2,6 +2,11 @@ Ethereum Twitter
 
 Shengyi Zhou, Mengwei Yang, Yan Zhang, Zhimin Wang
 
+steps:
+npm install -g truffle@v5.1.65
+npm install
+truffle test (Or "truffle develop" then "test")
+
 Contracts:
 The contract is in the ./contract/TwitterFactory.sol, the functions including: 
 creat, getTwitter(s), update, delete
