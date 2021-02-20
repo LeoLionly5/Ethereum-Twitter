@@ -17,11 +17,15 @@ contract TwitterFactory {
     }
 
     function getTwitter(uint256 _id) public view returns (Twitter memory) {
+        
         for (uint256 i=0; i < twitters.length; i++){
             if (twitters[i].id == _id){
                 return twitters[i];
             }
+          
         }
+        return Twitter(address(0), '', 1);
+       
     }
 
     function getTwitters() public view returns (Twitter[] memory) {
